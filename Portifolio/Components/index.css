@@ -1,0 +1,71 @@
+:root {
+    --color-lista-principal: #d1d1d1d1;
+}
+
+html {
+    background-color: var(--color-lista-principal);
+}
+
+
+
+.init {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    margin-top: 100px;
+
+
+}
+
+.button {
+    width: 600px;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+}
+
+.sobre {
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    border: thick double #32a1ce;
+    transition: 2s;
+}
+
+.sobre:hover {
+    background-color: #32a1ce;
+    font-size: 20px;
+    color: white;
+}
+
+.projetos {
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    border: thick double #32a1ce;
+    transition: 2s;
+}
+
+.projetos:hover {
+    background-color: #32a1ce;
+    font-size: 20px;
+    color: white;
+}
+
+.contato {
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    border: thick double #32a1ce;
+    transition: 2s;
+}
+
+.contato:hover {
+    background-color: #32a1ce;
+    font-size: 20px;
+    color: white;
+}
